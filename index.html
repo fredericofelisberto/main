@@ -11,160 +11,210 @@
     <!-- Bootstrap core CSS -->
 
     <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
+            href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+            rel='stylesheet' type='text/css'>
     <link
-        href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
+            href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+            rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/yeti/bootstrap.min.css"
-        crossorigin="anonymous">
+          crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        crossorigin="anonymous">
+          crossorigin="anonymous">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
+    <style type="text/css">
+        .link-cust {
+            font-size: medium;
+        }
+    </style>
 </head>
 
 <body>
-    <!--Menus Section-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+<!--Menus Section-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
             aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarID">
-            <ul class="navbar-nav mr-auto" style="margin-left:8%">
-                <li class="nav-item active">
-                    <a class="nav-link" id="home" style="cursor: pointer;">Home<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="aboutme" style="cursor: pointer;">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="phd" style="cursor: pointer;">PhD</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="cursor: pointer;" id="cv">Curriculum Vitae</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="cursor: pointer;" id="contact">Contacts</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button type="button" class="btn btn-info">GitHub</button>
-            </form>
+    <div class="collapse navbar-collapse" id="navbarID">
+        <ul class="navbar-nav mr-auto" style="margin-left:8%">
+            <li class="nav-item active">
+                <a class="nav-link link-cust" id="home" style="cursor: pointer;">Home<span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  link-cust" id="WExp" style="cursor: pointer;">Work Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  link-cust" id="Edu" style="cursor: pointer;">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-cust" style="cursor: pointer;" id="aw">Awards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  link-cust" style="cursor: pointer;" id="pub">Publications</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button type="button" class="btn btn-link">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <br/>
+
+    <div class="row">
+        <div class="col-sm-3"><img style="width: 100%; display: block;" src="main/image/perfil.JPG" alt="Card image">
         </div>
-    </nav>
+        <div class="col-sm-9 border-left">
 
-    <div class="container">
-        <br />
-        <div class="alert alert-dismissible alert-info">
-            Frederico Samuel Felisberto
+            <!--About-->
+            <div class="row" id="aboutme">
+                <div class="col">
+                    <div class="card border-secondary  mb-3">
+                        <div class="card-header"><i class="fa fa-user-o fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Hello, I am Frederico Felisberto</h4>
+                            <p class="text-justify">
+                                My whole childhood was made in Mozambique. Currently I am a PhD candidate in Computer
+                                Engineering at Instituto Superior Técnico (IST), Universidade de Lisboa (Portugal).
+                                As a researcher, I'm interested in Neural Networks for Speech Recognition in general.
+                                Here you'll be able to find more about me. Thank you for your visit.</p>
 
-            <span class="float-right" title="Last update">30/12/2019</span>
-        </div>
-
-        <div class="row" id="aboutmeSection">
-            <div class="col-sm-4">
-                <img style="width: 100%; display: block;" src="main/image/perfil.JPG" alt="Card image">
+                            <div class="row border-top" style="padding: 1em">
+                                <div class="col-1"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></div>
+                                <div class="col">fredysavtyy@gmail.com</div>
+                                <div class="w-100" style="padding: .4em 0"></div>
+                                <div class="col-1"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></div>
+                                <div class="col">+351 96 860 3385</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-8 border-left">
-                <h2>Frederico Samuel Felisberto</h2>
 
-                <blockquote class="blockquote">
-                    <p class="mb-0">Description</p>
-                    <footer class="blockquote-footer">My whole childhood was made in Mozambique. In 2008 I finished my
-                        high school at Joaquim Chissano secondary school in <a
-                            href="https://www.tripadvisor.pt/Tourism-g677710-Xai_Xai_Gaza_Province-Vacations.html"
-                            target="_">Xai-Xai</a>.
-                        In 2010 I started my degree in Computer Engineering at <a
-                            href="http://www.unilurio.ac.mz/unilurio/pt/" target="_">Universidade Lúrio</a> in
-                        <a href="https://www.tripadvisor.pt/Tourism-g298356-Pemba_Cabo_Delgado_Province-Vacations.html"
-                            target="_">Pemba</a> where I finished in 2014.</footer>
-                </blockquote>
+            <!--Work Experience-->
+            <div class="row" id="workExperience">
+                <div class="col">
+                    <div class="card border-secondary  mb-3">
+                        <div class="card-header"><i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Work Experience</h4>
+                            <p class="text-justify">TODO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <blockquote class="blockquote">
-                    <p class="mb-0">Local of birth</p>
-                    <footer class="blockquote-footer">Province: Gaza</footer>
-                    <footer class="blockquote-footer">City: Xai-Xai</footer>
+            <!--Education-->
+            <div class="row" id="education">
+                <div class="col">
+                    <div class="card border-secondary  mb-3">
+                        <div class="card-header"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Education</h4>
+                            <p class="text-justify">TODO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                </blockquote>
+            <!--Education-->
+            <div class="row" id="awards">
+                <div class="col">
+                    <div class="card border-secondary  mb-3">
+                        <div class="card-header"><i class="fa fa-trophy fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Awards</h4>
+                            <p class="text-justify">TODO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-                <blockquote class="blockquote">
-                    <p class="mb-0">Nationality</p>
-                    <footer class="blockquote-footer">Mozambican</footer>
-                </blockquote>
-
-                <hr />
-                <blockquote class="blockquote">
-                    <p class="mb-0">Filiation</p>
-                    <footer class="blockquote-footer">Samuel Felisberto & Terese Rafael Moiane Felisberto</footer>
-                </blockquote>
-                <hr />
-
-                <div>
-                    <span class="badge badge-primary">Children &nbsp; 0</span>
-                    <span class="badge badge-primary">Brothers &nbsp; 8</span>
+            <!--Education-->
+            <div class="row" id="publication">
+                <div class="col">
+                    <div class="card border-secondary  mb-3">
+                        <div class="card-header"><i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Publication</h4>
+                            <p class="text-justify">TODO</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row" id="phdSection">
-            <h1>Phd</h1>
-        </div>
-
-        <div class="row" id="contactSection">
-            <h1>Contacts</h1>
-        </div>
-
     </div>
 
-    <script>
-        $(document).ready(function () {
 
-            $('#home').click(function () {
-                $('#aboutmeSection').show();
-                $('#phdSection').show();
-                $('#contactSection').show();
-            });
+</div>
 
-            $('#aboutme').click(function () {
-                $('#aboutmeSection').show();
-                $('#phdSection').hide();
-                $('#contactSection').hide();
-            });
+<script>
+    $(document).ready(function () {
 
-            $('#phd').click(function () {
-                $('#aboutmeSection').hide();
-                $('#phdSection').show();
-                $('#contactSection').hide();
-            });
-
-            $('#contact').click(function () {
-                $('#aboutmeSection').hide();
-                $('#phdSection').hide();
-                $('#contactSection').show();
-            });
-
+        $('#home').click(function () {
+            $('#aboutme').show();
+            $('#workExperience').show();
+            $('#education').show();
+            $('#awards').show();
+            $('#publication').show();
         });
-    </script>
+
+        $('#WExp').click(function () {
+            $('#aboutme').hide();
+            $('#workExperience').show();
+            $('#education').hide();
+            $('#awards').hide();
+            $('#publication').hide();
+        });
+
+        $('#Edu').click(function () {
+            $('#aboutme').hide();
+            $('#workExperience').hide();
+            $('#education').show();
+            $('#awards').hide();
+            $('#publication').hide();
+        });
+
+        $('#aw').click(function () {
+            $('#aboutme').hide();
+            $('#workExperience').hide();
+            $('#education').hide();
+            $('#awards').show();
+            $('#publication').hide();
+        });
+
+        $('#pub').click(function () {
+            $('#aboutme').hide();
+            $('#workExperience').hide();
+            $('#education').hide();
+            $('#awards').hide();
+            $('#publication').show();
+        });
+
+    });
+</script>
 </body>
 
 </html>
